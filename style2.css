@@ -1,0 +1,87 @@
+[3:11 pm, 06/10/2022] +91 91407 97355: *{
+    padding : 0;
+    margin : 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(36, 13, 13);
+    padding: 6px;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+/*  Navigation Bar: Logo and Image */
+#logo{
+    margin: -1px 10px;
+}
+#logo img{
+    height: 77px;
+    width: 68px;
+    object-fit: contain;
+}
+
+/*  Navigation Bar: List Sytling */
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height : 100%;
+    width: 100%;
+    top:0px;
+    left : 0px;
+    z-index: -1;
+    opacity: 0.4;
+}
+[3:13 pm, 06/10/2022] +91 91407 97355: #navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color : white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color: rgba(245, 245, 245, 0.504);
+    color : #29d9d5;
+}
+.btn{
+    padding : 6px 20px;
+    border : 2px solid  #29d9d5;
+    background-color: brown;
+    color:#29d9d5;
+    margin:17px;
+    font-size : 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Section */
+#blogs{
+    display: flex;
+    flex-direction: column;
+    height: 286px;
+    padding : 3px 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#blog{
+    height: 100px;
+    width: 1200px;
+    font-size: 1.3rem;
+    border: 2px red solid;
+    border-radius: 10px;
+    background-color: pink;
+    margin-top : 80px;
+
+}
